@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+frontend/.vercel/
+
+# Env
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Keep examples in repo
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
